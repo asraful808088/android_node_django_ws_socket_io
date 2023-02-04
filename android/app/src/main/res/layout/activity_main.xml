@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/node_header"
+            android:text="@string/node_server"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="70dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:layout_below="@+id/node_header"
+            android:id="@+id/for_node"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"/>
+        <TextView
+            android:layout_below="@+id/for_node"
+            android:id="@+id/django_header"
+            android:text="@string/django_server"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_height="70dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/for_django"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/django_header"
+            android:layout_height="250dp"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

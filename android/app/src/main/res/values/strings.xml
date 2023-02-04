@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="_0_2112">0.2112</string>
+    <string name="btc">BTC :</string>
+    <string name="node_server">Node Server</string>
+    <string name="django_server">Django Server</string>
+</resources>
